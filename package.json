@@ -10,7 +10,9 @@
     "@modelcontextprotocol/sdk": "^1.18.0",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "fs": "^0.0.1-security",
     "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
     "zod": "^3.25.76"
   }
 }
