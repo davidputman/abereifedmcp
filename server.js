@@ -64,13 +64,16 @@ const tools = [
 			description: "lists the contents of the current working directory",
 			inputSchema: {
 				type: "object",
-				properties: {},
-				required: []
+				properties: {
+					folderName: {type: "string", description: "the folder to be listed"}
+				},
+				required: []		
 			}
 		},
 		func:(params)=>{
 			log("called list folder contents tool",params);
-			const contents = fs.readdirSync(process.cwd())
+			const folderName = params.folderName || ".";
+			const contents = fs.readdirSync(`${process.cwd()}/${params.folderName}`);
 			return {content: [{type: "text", text: JSON.stringify(contents)}]};
 		}
 	},

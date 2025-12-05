@@ -1,15 +1,27 @@
-professional storyboard, clean greyscale line-art, crisp outlines, consistent character design, cinematic framing, 
-dynamic camera angles, strong silhouette focus, clear panel layout, visual continuity across all panels, simple shading, 
-minimal detail, storyboard style, animation pre-production look, expressive poses, focused composition, high contrast line work, 
-clean perspective, coherent scene progression
+professional film storyboard, storyboard_sketch_flux style, greyscale cinematic line-art, high-contrast pencil sketch, crisp outlines, simple shading, no colour, pre-production storyboard style, consistent characters, sequential visual narrative
 
-[SCENE_DESCRIPTION]
+A FULL STORYBOARD PAGE WITH MULTIPLE TILES:
+The page is divided into exactly 8 storyboard tiles arranged in two rows of four columns. Clean rectangular borders around each tile. Thick black lines separate every tile. No full-page illustration. The composition must show 8 distinct tiles.
 
-Panel 1: The desolate surface of the moon stretches out before us, with craters and rocky formations as far as the eye can see. 
-Panel 2: A small spacecraft, its metal body glinting in the sunlight, hurtles towards the moon's surface. 
-Panel 3: The spacecraft lands with a gentle thud, sending up a plume of moon dust.
-Panel 4: The door of the spacecraft opens, and an astronaut steps out
-Panel 5: The astronaut takes a moment to look around, taking in the alien landscape before them. 
-Panel 6: Then, with a sense of purpose, they plant a flag into the ground.
-Panel 7: The moon suddenly bursts like a balloon, sending debris flying everywhere
-Panel 8: From the Earth, sky-watchers look on in amazement as the moon careens through space, propelled by emission of its internal gasses. They watch in awe as it leaves a trail of debris behind it, before finally disappearing into the vast expanse of space.
+LAYOUT:
+Tile 1 top-left, Tile 2, Tile 3, Tile 4 top-right
+Tile 5 bottom-left, Tile 6, Tile 7, Tile 8 bottom-right
+
+SCENE DESCRIPTION:
+[a light-hearted sci-fi adventure on the moon]
+
+Tile 1: The desolate surface of the moon stretches out before us, with craters and rocky formations as far as the eye can see. 
+Tile 2: A small spacecraft, its metal body glinting in the sunlight, hurtles towards the moon's surface. 
+Tile 3: The spacecraft lands with a gentle thud, sending up a plume of moon dust.
+Tile 4: The door of the spacecraft opens, and an astronaut steps out
+Tile 5: The astronaut takes a moment to look around, taking in the alien landscape before them. 
+Tile 6: Then, with a sense of purpose, they plant a flag into the ground.
+Tile 7: The moon suddenly bursts like a balloon, sending debris flying everywhere
+Tile 8: From the Earth, sky-watchers look on in amazement as the moon careens through space, propelled by emission of its internal gasses. They watch in awe as it leaves a trail of debris behind it, before finally disappearing into the vast expanse of space.
+
+This MUST be a multi-tile storyboard page with exactly 8 tiles. 
+It cannot be a single cohesive image.
+
+
+Negative Prompt:
+low quality, blurry, distorted, poorly drawn, inconsistent characters, incorrect proportions, lack of detail, color, full-page illustration, fewer or more than 8 tiles, overlapping tiles, messy borders, chaotic layout
