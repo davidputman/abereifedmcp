@@ -199,5 +199,5 @@ app.all("/mcp", (req, res) => {
 });
 
 
-const PORT = 3000;
+const PORT = 3800;
 app.listen(PORT, () => log(`MCP server running on http://localhost:${PORT}`));
